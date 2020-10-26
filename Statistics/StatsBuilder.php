@@ -169,11 +169,11 @@ class StatsBuilder
      *
      * @param array $contents
      * @param string $class
-     * @param int $pageId
+     * @param string $pageId
      *
      * @return self
      */
-    public function build(array $contents, string $class, int $pageId): self
+    public function build(array $contents, string $class, string $pageId): self
     {
         $this->contents = $contents;
         $this->class = $class;
@@ -185,11 +185,11 @@ class StatsBuilder
     /**
      * Builds the page.
      *
-     * @param int $pageId
+     * @param string $pageId
      *
      * @return array
      */
-    public function buildPage(int $pageId): array
+    public function buildPage(string $pageId): array
     {
         if (isset($this->contents[$this->class][$pageId])) {
             $page = $this->contents[$this->class][$pageId];

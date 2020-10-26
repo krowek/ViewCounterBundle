@@ -1,5 +1,5 @@
 {
-    "name": "tchoulom/view-counter-bundle",
+    "name": "krowek/view-counter-bundle",
     "license": "MIT",
     "type": "symfony-bundle",
     "description": "The \"View Counter\" bundle",

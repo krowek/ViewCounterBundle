@@ -26,7 +26,7 @@ class Page
     /**
      * The page ID.
      *
-     * @var int
+     * @var string
      */
     protected $id;
 
@@ -54,9 +54,9 @@ class Page
     /**
      * Page constructor.
      *
-     * @param int $id
+     * @param string $id
      */
-    public function __construct(int $id)
+    public function __construct(string $id)
     {
         $this->id = $id;
     }
@@ -64,9 +64,9 @@ class Page
     /**
      * Gets the Id.
      *
-     * @return int
+     * @return string
      */
-    public function getId(): int
+    public function getId(): string
     {
         return $this->id;
     }
